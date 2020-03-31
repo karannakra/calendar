@@ -38,8 +38,8 @@ const App = props => {
               justifyContent: 'center'
             }}
           >
-            <Button variant="contained" color="secondary">
-              Press A To Open Calendar
+            <Button variant="contained" color="primary" onClick ={()=>setShowCalendar(true)}>
+              click To Open Calendar
           </Button>
           </Grid>
       }
